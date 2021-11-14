@@ -1,0 +1,12 @@
+name: GHA
+on: [push]
+jobs: 
+  Recon: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          id
+      - run: |
+          uname -a
+      - run: |
+          echo "Hello World!"
